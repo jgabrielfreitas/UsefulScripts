@@ -8,8 +8,8 @@ def refresh_line(message_to_show):
     sys.stdout.write(message_to_show + " \r")
     sys.stdout.flush()
 
-# your_list = 'abcdefghijklmnopqrstuvwxyz1234567890!@#$%&*()_+={-}[]\|?/'
-your_list = 'abcdefghijklmnopqrstuvwxyz' # test just letters, this reduce the time of processing, but decreases the chances
+your_list = 'abcdefghijklmnopqrstuvwxyz1234567890!@#$%&*()_+={-}[]\|?/'
+# your_list = 'abcdefghijklmnopqrstuvwxyz' # test just letters, this reduce the time of processing, but decreases the chances
 attempt_count = 0
 
 # if you just clone the repo, type: get.zip
