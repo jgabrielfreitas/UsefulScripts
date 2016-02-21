@@ -25,8 +25,8 @@ def job():
         print "do nothing"
     print '============================='
 
-# schedule.every(1).minutes.do(job)
-schedule.every().day.do(job)
+schedule.every(1).minutes.do(job)
+# schedule.every().day.do(job)
 
 while True:
     schedule.run_pending()
